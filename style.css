@@ -1,24 +1,28 @@
 body{
-    background-color:#FFA6A6;
-    color:black;
+    background-color: #2d2f36;
+    color:white;
     font-family: 'Courier New', Courier, monospace;
+    width: 99vw;
+    height: 97vh;
 }
 .Holder{
     display:flex;
-    flex-direction:row;
+    color: #fdca7f;
 }
 p{
     font-weight: 700;
-    color: #fdca7f;
+    display: block;
 }
 
 .card-holder{
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    background-color:cornflowerblue;
+    background-color:black;
     margin:1%;
     padding:1%;
+}
+input{
+    /* margin-left:1.2rem;
+    position: relative; */
+    display: block;
 }
 
 
